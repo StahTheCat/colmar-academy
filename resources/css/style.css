@@ -102,6 +102,10 @@ nav {
     margin-right: 1.5rem;
 }
 
+.info-main h1 {
+    margin: 2rem 0 1.5rem 0;
+}
+
 .info-main img {
     width: 100%;
 }
@@ -139,4 +143,42 @@ nav {
 
 .info-box-text A {
     color: blue;
+}
+
+/* LEARNING SECTION */
+
+.learning {
+    margin: 2rem 4.5rem;
+      background-color: lightgray;
+}
+
+.learning h1 {
+    padding: 2rem 0 1rem; 
+    text-align: center;
+}
+
+.learn-boxes {
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.learn-box {
+    width: 27%;
+    background-color: white; 
+    margin: 1rem;
+}
+
+
+.learn-box img {
+    width: 100%;
+}
+
+.learn-box h2, p {
+    margin: 1rem;
+}
+
+.learn-box p {
+    color: grey;
 }
