@@ -2,6 +2,17 @@
     font-size: 16px;
     font-family: sans-serif;
     color: #4a4a4a;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.3rem;
 }
 
 /* NAV-BAR */
@@ -19,14 +30,12 @@ nav {
 
 .logo {
     display: flex;
-    flex-flow: row;
-    align-content: center;
+    align-items: center;
 }
 
 .logo img {
-    margin: auto 0 auto 1.5rem;
+    margin: auto 0;
     height: 2rem;
-
 }
 
 .logo p, span {
@@ -35,7 +44,7 @@ nav {
 }
 
 .logo span {
-    COLOR: grey    ;
+    COLOR: grey;
 }
 
 .nav-bar ul {
@@ -60,12 +69,12 @@ nav {
 }
 
 .banner-text {
-    margin: 2rem 0;
+    margin: auto auto;
+    width: 30%;
 }
 
-.banner h1 {
-    font-size: 2rem;
-    font-weight: 900;
+.banner-text p {
+    margin: 1rem 0;
 }
 
 .banner p {
@@ -82,3 +91,52 @@ nav {
 }
 
 /* INFORMATION SECTION */
+
+.information {
+    display: flex;
+    margin: 2rem 1rem 2rem 1.5rem;
+}
+
+.info-main {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.info-main img {
+    width: 100%;
+}
+
+.info-main .autor {
+    font-size: 10px;
+}
+
+.info-bar {
+    width: 40%;
+}
+
+.info-box {
+    display: flex;
+    margin: 0 1rem 1rem;
+}
+
+#guest {
+    background-color: lightgray;
+}
+
+.info-box img {
+    width: 35%;
+    height: auto;
+    margin: 0 1rem 0 0;
+}
+
+.info-box-text {
+    margin: auto;
+}
+
+.info-box-text p {
+    margin-top: 1rem;
+}
+
+.info-box-text A {
+    color: blue;
+}
