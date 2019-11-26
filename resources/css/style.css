@@ -16,19 +16,20 @@ nav {
     display: flex;
 }
 
-.nav-bar .logo {
+.logo {
     display: flex;
     flex-flow: row;
     align-content: center;
-    height: 100%;
 }
 
 .logo img {
     margin: auto 0 auto 1.5rem;
+    height: 2rem;
+
 }
 
 .logo p, span {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .logo span {
@@ -43,3 +44,5 @@ nav {
 .nav-bar li {
     margin: 1rem;
 }
+
+/* BANNER */
