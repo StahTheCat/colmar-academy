@@ -1,0 +1,45 @@
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* NAV-BAR */
+
+nav {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar .logo {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    height: 100%;
+}
+
+.logo img {
+    margin: auto 0 auto 1.5rem;
+}
+
+.logo p, span {
+    font-size: 2rem;
+}
+
+.logo span {
+    COLOR: grey;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 1rem;
+}
