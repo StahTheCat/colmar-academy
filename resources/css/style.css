@@ -225,3 +225,22 @@ nav {
 .thesis-box-text {
     margin: auto auto;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 1.5rem 0;
+    border-top: lightgray 1px solid;
+    height: 4rem;
+}
+
+footer p {
+    margin: 0;
+   }
+
+footer a {
+    padding: 10px;
+}
