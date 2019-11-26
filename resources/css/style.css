@@ -1,6 +1,7 @@
 * {
     font-size: 16px;
     font-family: sans-serif;
+    color: #4a4a4a;
 }
 
 /* NAV-BAR */
@@ -30,10 +31,11 @@ nav {
 
 .logo p, span {
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .logo span {
-    COLOR: grey;
+    COLOR: grey    ;
 }
 
 .nav-bar ul {
@@ -46,3 +48,37 @@ nav {
 }
 
 /* BANNER */
+
+.banner {
+    background-color: lightgray;
+    display: flex;
+}
+
+.banner img {
+    margin: 2rem 1.5rem;
+    width: 60%;
+}
+
+.banner-text {
+    margin: 2rem 0;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+.banner .button {
+    font-size: 1rem;
+    background-color: #4a4a4a;
+    color: white;
+    margin: auto 2rem auto 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* INFORMATION SECTION */
